@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 500px;
+    height: 40px;
+    background-color: lightblue;
+}
+.child {
+    display: flex;
+    align-items: center;
+    border: 1px solid green;
+}
+.child h1 {
+    width: 0px;
+    background-color: pink;
+}
